@@ -19,9 +19,4 @@ class ContactEmail extends Email
 
         parent::__construct($this->to, $fromEmail, $message, $subject);
     }
-
-    public function send()
-    {
-        return mail($this->to, $this->subject, $this->message, implode(': ', $this->headers));
-    }
 }
