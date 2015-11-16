@@ -1,6 +1,6 @@
 <?php 
 if (!empty($_POST)):
-  $to ="youremailaddress@gmail.com"; //the email address you want messages sent to
+  $to ="siriloof@gmail.com"; //the email address you want messages sent to
   $subject ="Website Message from ".$_POST['name'];
   $message =$_POST['message'];
   $headers ="From: ".$_POST['email'];
